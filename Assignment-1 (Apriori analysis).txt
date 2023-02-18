@@ -1,0 +1,39 @@
+Assignment 1: Apriori Analysis
+
+objective: To calculate time complexity of following codes
+
+//code 1:
+ i = n;
+while (i > 2):
+    i = i**1/21**k
+    print(i);
+
+//Solution:
+let k be number of times the loop runs, thus it will run till :- 
+    n**1/21**k = 2
+    on solving the above equation we get the time complexity as O(log(log(n)));
+
+
+
+code 2:
+i = 29;
+while(i < n):
+    i = i**23
+    print(i)
+
+//Solution:
+let k be number of times the loop runs, thus it will run till :- 
+    29**23**k = n
+    on solving the above equation we get the time complexity as O(log(log(n)));
+    
+
+code 3:
+i = 1
+while(i < n):
+    i = 2 * i
+    i = 3 * i
+
+//Solution:
+let k be number of times the loop runs, thus it will run till :- 
+    6**k = n
+    on solving the above equation we get the time complexity as O(log(n));
