@@ -1,0 +1,23 @@
+Practice Problems : Asymptotic notations
+
+1) f(n) = n - 10, g(n) = n +10 , is f(n) = theta(g(n))?
+=> True
+    as n - 10 <= c*(n + 10) where c = 1
+    n-10 >= c*(n + 10) where c = 2,  n0 = 30
+
+
+2) f(n)=n g(n) = n , is f(n) = theta(g(n))?
+=> True 
+    as n <= n , n >= n
+
+3) is (64**log(n))*(32**log(n)) = O(n**5)?
+=> False
+    as exponential is greater than polynomial
+
+4) is 4**n/2**n = O(2**n) ?
+=> True
+    as 2**n <= 2**n
+
+5) is 128**log(n) = O(n**9)?
+=> False
+    as exponential is greater than polynomial
