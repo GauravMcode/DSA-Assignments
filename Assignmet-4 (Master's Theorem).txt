@@ -1,0 +1,13 @@
+calculate complexity with master's theorem
+
+1) T(n) = 2T(n/2) + n
+=> theta(nlogn)
+
+2)T(n) = 2T(n/2) + nlogn
+=> theta(nlogn**2)
+
+3)T(n) = 2T(n/2) + n**2
+=> theta(n**2)
+
+4)T(n) = 8T(n/2) + n**2
+=> theta(n**3)
